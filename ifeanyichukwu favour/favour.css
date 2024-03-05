@@ -1,0 +1,78 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+.header-div {
+  display: flex;
+  width: 80vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-div .bi {
+  font-size: 2vw;
+}
+.header-div p {
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.row {
+  /* max-width: 1080px; */
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 5vh; */
+}
+.col {
+  /* flex-basis: 25%; */
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col img {
+  width: 25vw;
+}
+.row1 {
+  /* max-width: 1080px; */
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col1 {
+  /* flex-basis: 25%; */
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col1 img {
+  width: 25vw;
+}
+.row2 {
+  /* max-width: 1080px; */
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col2 {
+  /* flex-basis: 25%; */
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col2 img {
+  width: 25vw;
+}
